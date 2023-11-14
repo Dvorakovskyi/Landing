@@ -97,7 +97,7 @@ export const StyledRevThdTitle = styled(StyledSecTitle)`
 
 export const StyledReviewsBtn = styled.button`
   padding: 3px 10px;
-  width: 80px;
+  width: 120px;
   font-size: 12px;
 
   border: none;
