@@ -1,8 +1,8 @@
 {
-  "name": "makita",
+  "name": "drawing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AllGoodsBazaar.github.io/Makita/",
+  "homepage": "https://AllGoodsBazaar.github.io/Drawing/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
