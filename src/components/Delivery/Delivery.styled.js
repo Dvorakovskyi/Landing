@@ -19,7 +19,7 @@ export const StyledDeliveryList = styled.ul`
 export const StyledDeliveryItem = styled.li`
   position: relative;
   padding: 10px;
-  width: 160px;
+  width: 150px;
   height: 100px;
   list-style: none;
 
