@@ -11,7 +11,7 @@ export const StyledReviewsSection = styled(StyledSection)`
   align-items: center;
   margin: 0;
 
-  background-color: ${colors.mainBgColor};
+  background-color: ${colors.secondaryBgColor};
 `;
 
 export const StyledRevSecTitle = styled(StyledSecTitle)`

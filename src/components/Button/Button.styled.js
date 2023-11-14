@@ -16,7 +16,7 @@ export const StyledBtn = styled.button`
   transition: background-color 250ms ease;
 
   color: ${colors.mainTextColor};
-  background-color: ${colors.discountBgColor};
+  background-color: ${colors.btnBgColor};
 
   &:hover,
   &:focus {

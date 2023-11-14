@@ -20,7 +20,7 @@ export const StyledHeroList = styled.ul`
   padding: 8px 20px;
   min-width: 320px;
 
-  background-color: ${colors.mainBgColor};
+  background-color: ${colors.secondaryBgColor};
 `;
 
 export const StyledHeroItem = styled.li`
