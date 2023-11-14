@@ -89,6 +89,7 @@ export const StyledTextArea = styled.textarea`
 
 export const StyledRevThdTitle = styled(StyledSecTitle)`
   margin-bottom: 5px;
+  width: 170px;
   font-size: 20px;
 
   color: ${colors.mainTextColor};
