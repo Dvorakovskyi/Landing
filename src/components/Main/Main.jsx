@@ -9,10 +9,8 @@ import Remainder from 'components/Remainder/Remainder';
 import Modal from 'components/Modal/Modal';
 import SecondDescription from 'components/SecondDescription/SecondDescription';
 import Benefits from 'components/Benefits/Benefits';
-import Img from 'components/Img/Img';
 import Delivery from 'components/Delivery/Delivery';
 import Reviews from 'components/Reviews/Reviews';
-import Characteristics from 'components/Сharacteristics/Сharacteristics';
 import CompleteSet from 'components/CompleteSet/CompleteSet';
 import { StyledMain } from './Main.styled';
 
@@ -55,10 +53,8 @@ const Main = () => {
       <Remainder />
       <SecondDescription />
       <Benefits />
-      <Characteristics />
       <CompleteSet/>
       <Button openModal={handleOpenModal} />
-      <Img />
       <Delivery />
       <Reviews />
       <Hero />
