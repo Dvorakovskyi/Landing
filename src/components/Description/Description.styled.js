@@ -21,5 +21,5 @@ export const StyledDescText = styled.p`
 `;
 
 export const StyledSpan = styled.span`
-  font-weight: 500;
+  font-weight: 700;
 `;

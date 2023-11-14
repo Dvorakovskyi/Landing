@@ -15,8 +15,7 @@ const Hero = () => {
   return (
     <>
       <StyledMainTitle>
-        Акумуляторний шуруповерт Makita 12v в повній комплектації + набір
-        інструментів в подарунок
+        Дитячий набір для малювання 220 предметів у дерев'яній валізі
       </StyledMainTitle>
       <StyledHeroImg src={mainPhoto} alt="Термос" />
       <StyledHeroList>
