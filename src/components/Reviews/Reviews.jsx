@@ -18,7 +18,7 @@ const Reviews = () => {
           <StyledThirdTitle>Юлія Приходько</StyledThirdTitle>
           <StyledCityText>м.Київ</StyledCityText>
           <StyledReviewsText>
-            Купувала на подарунок, чоловік залишився дуже задоволений.
+            Дитина в захваті, дякую.
           </StyledReviewsText>
         </StyledReviewsItem>
         <StyledReviewsItem>

@@ -29,6 +29,7 @@ export const StyledReviewsList = styled.ul`
 export const StyledReviewsItem = styled.li`
   padding: 10px;
   margin-bottom: 10px;
+  width: 330px;
   list-style: none;
   border-radius: 20px;
 

@@ -13,6 +13,7 @@ import {
 
 const Form = ({ closeModal }) => {
   const [name, setName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
 
   const navigate = useNavigate();
@@ -21,13 +22,14 @@ const Form = ({ closeModal }) => {
     const { name, value } = event.currentTarget;
 
     name === 'name' && setName(value);
+    name === 'lastName' && setLastName(value);
     name === 'phone' && setPhone(Number(value));
   };
 
   const handleSubmitForm = event => {
     event.preventDefault();
 
-    if (name === '' || phone === '') {
+    if (name === '' || phone === '' || lastName === '') {
       Notify.failure('Заповніть, будь ласка, усі поля');
 
       return;
@@ -39,8 +41,9 @@ const Form = ({ closeModal }) => {
       return;
     }
 
-    let message = `Ім'я: ${name}\n`;
-    message += `Телефон: ${phone}\n`;
+    let message = `Прізвище: ${lastName}\n`;
+    message += `Ім'я: ${name}\n`;
+    message += `Телефон: 0${phone}\n`;
 
     telegramOrder(message);
 
@@ -57,6 +60,12 @@ const Form = ({ closeModal }) => {
 
   return (
     <StyledForm onSubmit={handleSubmitForm}>
+      <StyledInput
+        type="text"
+        name="lastName"
+        placeholder="Прізвище"
+        onChange={handleChange}
+      />
       <StyledInput
         type="text"
         name="name"
