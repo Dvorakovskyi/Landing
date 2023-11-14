@@ -70,7 +70,7 @@ export const StyledReviewsForm = styled.form`
 export const StyledReviewsInput = styled(StyledInput)`
   padding: 5px 5px 5px 10px;
   margin-bottom: 5px;
-  width: 160px;
+  width: 330px;
   font-size: 12px;
 `;
 
@@ -97,6 +97,8 @@ export const StyledRevThdTitle = styled(StyledSecTitle)`
 
 export const StyledReviewsBtn = styled.button`
   padding: 3px 10px;
+  margin-left: auto;
+  margin-right: auto;
   width: 120px;
   font-size: 12px;
 
