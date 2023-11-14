@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { colors } from "styles/globalStyles";
 
 export const StyledDeliveryTittle = styled.h3`
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
     color: ${colors.secondaryTextColor};
 `;
 export const StyledDeliveryList = styled.ul`
@@ -15,11 +17,20 @@ export const StyledDeliveryList = styled.ul`
 `;
 
 export const StyledDeliveryItem = styled.li`
+    position: relative;
     padding: 10px;
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 100px;
     list-style: none;
 
     border-radius: 6px;
     background-color: ${colors.oldPriceBgColor};
+`;
+
+export const StyledDeliveryImg = styled.img`
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
 `;

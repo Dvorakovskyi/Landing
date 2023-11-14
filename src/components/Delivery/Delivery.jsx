@@ -5,7 +5,7 @@ import dispatch from '../../images/delivery/how-img-3.png';
 import receiving from '../../images/delivery/how-img-4.png';
 import { StyledSection } from 'components/Description/Description.styled';
 import { StyledSecTitle } from 'components/Benefits/Benefits.styled';
-import { StyledDeliveryTittle, StyledDeliveryItem, StyledDeliveryList } from './Delivery.styled';
+import { StyledDeliveryTittle, StyledDeliveryItem, StyledDeliveryList, StyledDeliveryImg } from './Delivery.styled';
 
 const Delivery = () => {
   return (
@@ -14,22 +14,22 @@ const Delivery = () => {
       <StyledDeliveryList>
         <StyledDeliveryItem>
           <StyledDeliveryTittle>ЗАЯВКА</StyledDeliveryTittle>
-          <img src={application} alt="Icon" width="50" height="50"/>
+          <StyledDeliveryImg src={application} alt="Icon"/>
           <p>Залишаєте заявку на нашому сайті</p>
         </StyledDeliveryItem>
         <StyledDeliveryItem>
           <StyledDeliveryTittle>ДЗВІНОК</StyledDeliveryTittle>
-          <img src={call} alt="Icon" width="50" height="50"/>
+          <StyledDeliveryImg src={call} alt="Icon"/>
           <p>Менеджер уточнює деталі замовлення</p>
         </StyledDeliveryItem>
         <StyledDeliveryItem>
           <StyledDeliveryTittle>ВІДПРАВКА</StyledDeliveryTittle>
-          <img src={dispatch} alt="Icon" width="50" height="50"/>
+          <StyledDeliveryImg src={dispatch} alt="Icon"/>
           <p>Новою Поштою протягом 1-3 днів</p>
         </StyledDeliveryItem>
         <StyledDeliveryItem>
           <StyledDeliveryTittle>ОТРИМАННЯ</StyledDeliveryTittle>
-          <img src={receiving} alt="Icon" width="50" height="50"/>
+          <StyledDeliveryImg src={receiving} alt="Icon"/>
           <p>Оплачуєте при отриманні</p>
         </StyledDeliveryItem>
       </StyledDeliveryList>
