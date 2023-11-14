@@ -101,5 +101,6 @@ export const StyledReviewsBtn = styled.button`
 
   border: none;
   border-radius: 10px;
+  color: ${colors.mainBgColor};
   background-color: ${colors.mainTextColor};
 `;
