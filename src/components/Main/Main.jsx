@@ -53,7 +53,7 @@ const Main = () => {
       <Remainder />
       <SecondDescription />
       <Benefits />
-      <CompleteSet/>
+      <CompleteSet />
       <Button openModal={handleOpenModal} />
       <Delivery />
       <Reviews />
