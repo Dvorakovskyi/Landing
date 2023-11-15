@@ -13,9 +13,9 @@ export const StyledDescImg = styled.img`
 `;
 
 export const StyledDescText = styled.p`
-  padding: 10px 8px;
+  padding: 2px 8px;
   font-size: 17px;
-  text-align: center;
+  text-align: justify;
 
   color: ${colors.secondaryTextColor};
 `;
