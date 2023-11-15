@@ -35,22 +35,22 @@ const AdditionalOrderFirst = () => {
   return (
     <StyledAdditWrapper>
       <StyledImgWrapper>
-        <StyledAdditImg src={brelok} alt="Фонарік-брелок" />
+        <StyledAdditImg src={brelok} alt="Акумуляторний ручний ліхтар" />
         <StyledRigthImgWrapper>
-          <StyledRightImg src={brelokS} alt="Фонарік-брелок" />
-          <StyledRightImg src={brelokT} alt="Фонарік-брелок" />
+          <StyledRightImg src={brelokS} alt="Акумуляторний ручний ліхтар" />
+          <StyledRightImg src={brelokT} alt="Акумуляторний ручний ліхтар" />
         </StyledRigthImgWrapper>
       </StyledImgWrapper>
       <StyledNameWrapper>
-        <StyledName>Брелок-ліхтарик</StyledName>
-        <StyledName>199 грн.</StyledName>
+        <StyledName>Акумуляторний ліхтар</StyledName>
+        <StyledName>250 грн.</StyledName>
       </StyledNameWrapper>
       <StyledChar>Особливості</StyledChar>
       <StyledCharList>
-        <StyledCharItem>Живлення від USB-кабеля</StyledCharItem>
-        <StyledCharItem>Час зарядки 1.5 години</StyledCharItem>
         <StyledCharItem>4 режими освітлення</StyledCharItem>
-        <StyledCharItem>Вбудований магніт</StyledCharItem>
+        <StyledCharItem>Додатковий боковий світлодіод</StyledCharItem>
+        <StyledCharItem>Джерело живлення: акумулятор</StyledCharItem>
+        <StyledCharItem>Дальність: 300 м</StyledCharItem>
       </StyledCharList>
       <StyledAdditBtn type="button" onClick={handleOpenModal}>
         Замовити

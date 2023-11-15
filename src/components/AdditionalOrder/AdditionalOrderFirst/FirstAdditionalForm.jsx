@@ -39,7 +39,7 @@ const FirstAdditionalForm = ({ closeModal }) => {
       return;
     }
 
-    let message = `Додаткове замовлення: Брелок-ліхтарик\n`;
+    let message = `Додаткове замовлення: Акумуляторний ручний ліхтар\n`;
     message += `Ім'я: ${name}\n`;
     message += `Телефон: ${phone}`;
 
